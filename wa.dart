@@ -455,4 +455,110 @@ class Mainframe extends StatelessWidget {
                             Positioned(
                               left: -0,
                               top: 0.93,
+child: SizedBox(
+                                width: 257.15,
+                                height: 17.57,
+                                child: Text(
+                                  'Email',
+                                  style: TextStyle(
+                                    color: Color(0xFF7E7E7E),
+                                    fontSize: 12.02,
+                                    fontFamily: 'Inter',
+                                    fontWeight: FontWeight.w400,
+                                    height: 0,
+                                    letterSpacing: 0.36,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Positioned(
+                              left: 11.10,
+                              top: 25.90,
+                              child: SizedBox(
+                                width: 235.88,
+                                height: 17.57,
+                                child: Text(
+                                  'kirby@gmail.com',
+                                  style: TextStyle(
+                                    color: Color(0xFF5D5D5D),
+                                    fontSize: 12.02,
+                                    fontFamily: 'Inter',
+                                    fontWeight: FontWeight.w400,
+                                    height: 0,
+                                    letterSpacing: 0.36,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      left: 31.93,
+                      top: 28,
+                      child: Container(
+                        height: 51.80,
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            SizedBox(
+                              width: double.infinity,
+                              height: 17.57,
+                              child: Text(
+                                'Username',
+                                style: TextStyle(
+                                  color: Color(0xFF7E7E7E),
+                                  fontSize: 12.02,
+                                  fontFamily: 'Inter',
+                                  fontWeight: FontWeight.w400,
+                                  height: 0,
+                                  letterSpacing: 0.36,
+                                ),
+                              ),
+                            ),
+                            Opacity(
+                              opacity: 0.50,
+                              child: Container(
+                                width: double.infinity,
+                                height: 34.22,
+                                decoration: ShapeDecoration(
+                                  color: Color(0xFFE4E4E4),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(9.25),
+                                  ),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              width: 235.88,
+                              height: 17.57,
+                              child: Text(
+                                'Kirbypogi123Xxx',
+                                style: TextStyle(
+                                  color: Color(0xFF5D5D5D),
+                                  fontSize: 12.02,
+                                  fontFamily: 'Inter',
+                                  fontWeight: FontWeight.w400,
+                                  height: 0,
+                                  letterSpacing: 0.36,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+}
                       
